@@ -1,0 +1,66 @@
+<html>
+	<head>
+		<title>Noi dung</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link rel="stylesheet" type="text/css" href="style1.css">
+		<script type="text/javascript" src="myscripts.js"></script>
+	</head>
+	<body>
+		<div class="main">
+			<div class="title">Nội dung bài viết</div>
+			<div class="content">
+			<table>
+					<form action="">
+						<tr>
+							<td>Tieu đề</td>
+							<td><input type="text" id="txttieude" cols="50"/></td>
+						</tr>
+						<tr>
+							<td>Lien ket tinh</td>
+							<td><a href="">Dantri.com.vn</a></td>
+						</tr>
+						<tr>
+							<td>Nội Dung</td>
+							<td>
+								<textarea rows="4" cols="50" id="area" minlength="200" required></textarea>
+							</td>
+						</tr>
+						<tr>
+							<td>Lịch đăng</td>
+							<td>
+								<input type="radio"  name="txtradio"/>Đăng ngay
+								<input type="radio" name="txtradio" checked/>Đặt lịch
+								<input type="datetime-local" />
+							</td>
+						</tr>
+						<tr>
+							<td><input type="submit" value="Đăng bài" onclick="validate()"/></td>
+							<td><input type="Reset" name="button" value="Reset"/></td>
+						</tr>
+					</form>
+				</table>
+			</div>
+			<div class="thongtinthem">
+				<h2>Thong tin bo sung</h2>
+				<table>
+					<form action="">
+						<tr>
+							<td>Email liên hệ</td><br/>
+							<td><input type="text" name="txtemail"/></td>
+						</tr>
+						<tr>
+							<td>Số điện thoại</td>
+							<td><input type="text" name="txtsdt" id="txtsdt"/></td>
+						</tr>
+						<tr>
+							<td>Thẻ đánh dấu</td>
+							<td><input type="text" name="txtdd" />
+								<input type="button" value="them" onclick="validate1()"/>
+							</td>
+						</tr>
+					</form>
+				</table>
+			</div>
+		</div>
+	</body>
+</html>

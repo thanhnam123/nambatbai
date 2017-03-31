@@ -1,0 +1,30 @@
+*{
+	padding :0px;
+	margin :0px;
+}
+.main{
+	width: 1000px;
+	margin-left: 200px;
+	margin-top: 142px;
+}
+.title{
+	background: #CCCCCC;
+	border: 2px solid white;
+	margin-right: 92px;
+}
+
+.content{
+	
+	background: #CCCCCC;
+	border: 2px solid white;
+	height: 200px;
+	width: 500px;
+	float: left;
+}
+.thongtinthem{
+	background: #CCCCCC;
+	border: 2px solid white;
+	height: 200px;
+	width: 400px;
+	float: left;
+}
